@@ -17,7 +17,7 @@ definition(
 
 preferences {	
      section("Select the Thermostat:") {
-        input "theThermostat", "capability.thermostatMode", required: false
+        input "theThermostat", "capability.thermostatMode", required: true
     }
 
 	section("Select the Air Circulation Virtual Switch:") {
